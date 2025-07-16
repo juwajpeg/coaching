@@ -63,7 +63,7 @@ export default function HomePage() {
             <div className="w-10 h-10 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110 shadow-lg shadow-primary-green">
               <Leaf className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-bold text-white font-sans">MindFlow</span>
+            <span className="text-2xl font-bold text-white font-sans">themauqif</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#services" className="text-gray-300 hover:text-emerald-400 transition-colors font-medium">
@@ -324,11 +324,11 @@ export default function HomePage() {
           <div className="w-12 h-12 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110 mx-auto mb-6 shadow-lg shadow-primary-green">
             <Leaf className="w-7 h-7 text-white" />
           </div>
-          <span className="text-2xl font-bold text-white font-sans">MindFlow</span>
+          <span className="text-2xl font-bold text-white font-sans">themauqif</span>
           <p className="text-gray-300 mb-4 font-medium">
             Guiding you towards inner peace, clarity, and a life of profound well-being.
           </p>
-          <p className="text-gray-400 text-sm">© 2024 MindFlow. All rights reserved. | Cultivating Serenity</p>
+          <p className="text-gray-400 text-sm">© 2024 themauqif. All rights reserved. | Cultivating Serenity</p>
         </div>
       </footer>
     </div>
