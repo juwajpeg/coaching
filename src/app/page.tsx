@@ -63,7 +63,7 @@ export default function HomePage() {
             <div className="w-10 h-10 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110 shadow-lg shadow-primary-green">
               <Leaf className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-bold text-white font-sans">themauqif</span>
+            <span className="text-2xl font-bold text-white font-sans">The Rooted Clarity</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="#services" className="text-gray-300 hover:text-emerald-400 transition-colors font-medium">
@@ -93,19 +93,18 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="inline-block mb-6">
             <div className="bg-gradient-to-r from-lime-400 to-cyan-400 text-gray-900 px-6 py-3 rounded-full text-lg font-semibold shadow-lg shadow-accent-green">
-              Embrace Your Inner Calm
+              Find Rooted Clarity. Live with Purpose.
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight font-sans">
-            Flow Through Life&rsquo;s Challenges,
+            Become a grounded, purpose driven man
             <br />
-            <span className="bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">
-              Discover Your True Self
+            <span className="block mt-4 text-4xl md:text-5xl font-bold text-emerald-300">
+              إن شاء الله
+              <br />
+              <span className="block italic text-emerald-300 text-sm md:text-base mt-1">God willing</span>
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto font-medium">
-            Holistic therapy and mindful guidance to cultivate resilience, clarity, and profound well-being.
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
@@ -124,6 +123,34 @@ export default function HomePage() {
         </div>
       </AnimatedSection>
 
+      {/* Three-Pillar Strip */}
+      <div className="max-w-5xl mx-auto mt-8 mb-16 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div className="bg-gray-900 border border-emerald-800 rounded-2xl p-6 shadow-lg flex flex-col items-center">
+            <span className="text-xl font-bold text-emerald-300 mb-2">Faith & Integrity</span>
+            <span className="text-gray-300 text-base">Align actions with timeless principles</span>
+          </div>
+          <div className="bg-gray-900 border border-teal-700 rounded-2xl p-6 shadow-lg flex flex-col items-center">
+            <span className="text-xl font-bold text-teal-300 mb-2">Resilient Relationships</span>
+            <span className="text-gray-300 text-base">Strong self, strong family, strong community</span>
+          </div>
+          <div className="bg-gray-900 border border-lime-600 rounded-2xl p-6 shadow-lg flex flex-col items-center">
+            <span className="text-xl font-bold text-lime-300 mb-2">Lifelong Growth</span>
+            <span className="text-gray-300 text-base">Mind, body, and spirit developed in balance</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Brotherhood Quote and Note */}
+      <div className="max-w-3xl mx-auto mb-16 px-4 text-center">
+        <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2 font-serif leading-relaxed">
+          "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا بَيْنَ أَخَوَيْكُمْ"
+        </div>
+        <div className="text-emerald-400 text-lg mb-4">(سورة الحجرات 49:10)</div>
+        <blockquote className="italic text-xl md:text-2xl text-emerald-200 mb-4 font-serif">“Indeed, the believers are brothers, so make peace between your brothers.”<br /><span className="text-base text-emerald-400">(Qurʾān 49:10)</span></blockquote>
+        <div className="text-gray-300 text-base md:text-lg mt-2">Everyone who values integrity and goodwill is welcome in this brotherhood.</div>
+      </div>
+
       {/* Services Section */}
       <AnimatedSection id="services">
         <div className="max-w-6xl mx-auto">
@@ -139,36 +166,41 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-            <Card className="bg-gray-900 border border-gray-800 hover:border-emerald-400 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-[1.02] rounded-3xl shadow-primary-green-card">
-              <CardContent className="p-8 text-center">
-                <div className="w-20 h-20 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-primary-green">
-                  <Sparkles className="w-10 h-10 text-white" />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <Card className="bg-gray-900 border border-emerald-800 hover:border-emerald-400 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-[1.02] rounded-2xl shadow-primary-green-card min-w-0">
+              <CardContent className="p-5 text-center flex flex-col h-full justify-between">
+                <div>
+                  <div className="w-14 h-14 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg shadow-primary-green">
+                    <Star className="w-7 h-7 text-white" />
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-1 font-sans">Purposeful Living</h3>
+                  <div className="text-emerald-300 text-sm font-semibold mb-1">Grounded Success</div>
+                  <p className="text-gray-300 text-sm mb-0">1-on-1 coaching for married professionals to balance career, family, and purpose.</p>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 font-sans">Individual Holistic Therapy</h3>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  Personalized sessions to explore your inner landscape, heal past wounds, and cultivate a resilient and
-                  joyful spirit.
-                </p>
-                <Button className="bg-gradient-to-r from-green-700 to-emerald-700 text-white hover:from-green-800 hover:to-emerald-800 transition-colors font-semibold rounded-full shadow-lg shadow-primary-green">
-                  Discover Inner Peace
-                </Button>
               </CardContent>
             </Card>
-
-            <Card className="bg-gray-900 border border-gray-800 hover:border-teal-400 transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-[1.02] rounded-3xl shadow-secondary-green-card">
-              <CardContent className="p-8 text-center">
-                <div className="w-20 h-20 bg-gradient-to-r from-teal-600 to-lime-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg shadow-secondary-green">
-                  <Cloud className="w-10 h-10 text-white" />
+            <Card className="bg-gray-900 border border-teal-700 hover:border-teal-400 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-[1.02] rounded-2xl shadow-secondary-green-card min-w-0">
+              <CardContent className="p-5 text-center flex flex-col h-full justify-between">
+                <div>
+                  <div className="w-14 h-14 bg-gradient-to-r from-teal-600 to-lime-500 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg shadow-secondary-green">
+                    <Sparkles className="w-7 h-7 text-white" />
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-1 font-sans">Identity & Transformation</h3>
+                  <div className="text-teal-300 text-sm font-semibold mb-1">Discover Yourself</div>
+                  <p className="text-gray-300 text-sm mb-0">Coaching & groups for young men facing challenges, addiction, or transitions.</p>
                 </div>
-                <h3 className="text-2xl font-bold text-white mb-4 font-sans">Mindfulness & Stress Reduction</h3>
-                <p className="text-gray-300 mb-6 leading-relaxed">
-                  Learn practical techniques to manage stress, enhance focus, and bring a sense of calm to your daily
-                  life.
-                </p>
-                <Button className="bg-gradient-to-r from-teal-600 to-lime-500 text-white hover:from-teal-700 hover:to-lime-600 transition-colors font-semibold rounded-full shadow-lg shadow-secondary-green">
-                  Find Your Calm
-                </Button>
+              </CardContent>
+            </Card>
+            <Card className="bg-gray-900 border border-lime-600 hover:border-lime-400 transition-all duration-300 shadow-lg hover:shadow-2xl hover:scale-[1.02] rounded-2xl shadow-accent-green-card min-w-0">
+              <CardContent className="p-5 text-center flex flex-col h-full justify-between">
+                <div>
+                  <div className="w-14 h-14 bg-gradient-to-r from-lime-400 to-cyan-400 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg shadow-accent-green">
+                    <Cloud className="w-7 h-7 text-gray-900" />
+                  </div>
+                  <h3 className="text-lg font-bold text-white mb-1 font-sans">Accountability Circles</h3>
+                  <div className="text-lime-400 text-sm font-semibold mb-1">Community-Driven Change</div>
+                  <p className="text-gray-300 text-sm mb-0">Group coaching and support circles for lasting, God-centric transformation.</p>
+                </div>
               </CardContent>
             </Card>
           </div>
@@ -189,30 +221,28 @@ export default function HomePage() {
                 Our Guiding Light
               </div>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-sans">Meet Dr. Elara Vance</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-sans">Meet Mohsan Attique: Your Guide to Purposeful Transformation</h2>
             <p className="text-xl text-gray-300 mb-6 leading-relaxed font-medium">
-              With a decade of experience in holistic psychology, Dr. Vance offers a nurturing space for profound
-              self-discovery and lasting transformation. Her approach is rooted in compassion and evidence-based
-              practices.
+              With almost two decades of experience, Mohsan Attique specializes in guiding men and their families through life’s challenges, focusing on God-centered high-performance coaching. His work blends Islamic values with proven psychological techniques to help men find clarity, purpose, and balance in their lives.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center shadow-md shadow-primary-green">
                   <Star className="w-4 h-4 text-white" />
                 </div>
-                <span className="text-gray-300 font-medium">Licensed Holistic Psychologist</span>
+                <span className="text-gray-300 font-medium">God-centered High-Performance Coaching</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-gradient-to-r from-teal-600 to-lime-500 rounded-full flex items-center justify-center shadow-md shadow-secondary-green">
                   <Star className="w-4 h-4 text-white" />
                 </div>
-                <span className="text-gray-300 font-medium">Mindfulness & CBT Specialist</span>
+                <span className="text-gray-300 font-medium">Islamic Values & Psychological Expertise</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-8 h-8 bg-gradient-to-r from-lime-400 to-cyan-400 rounded-full flex items-center justify-center shadow-md shadow-accent-green">
                   <Star className="w-4 h-4 text-gray-900" />
                 </div>
-                <span className="text-gray-300 font-medium">Trauma-Informed Care</span>
+                <span className="text-gray-300 font-medium">Clarity, Purpose, and Balance</span>
               </div>
             </div>
           </div>
@@ -221,15 +251,15 @@ export default function HomePage() {
             <div className="w-60 h-60 mx-auto bg-gradient-to-r from-green-700 to-emerald-700 rounded-full mb-6 flex items-center justify-center shadow-lg shadow-primary-green">
               <div className="w-52 h-52 bg-gray-800 rounded-full flex items-center justify-center">
                 <span className="text-5xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent font-mono">
-                  EV
+                  MA
                 </span>
               </div>
             </div>
             <div className="text-center">
-              <h3 className="text-2xl font-bold text-white mb-2 font-sans">Dr. Elara Vance</h3>
-              <p className="text-gray-300 mb-4 font-medium">Holistic Psychologist & Mindfulness Coach</p>
+              <h3 className="text-2xl font-bold text-white mb-2 font-sans">Mohsan Attique</h3>
+              <p className="text-gray-300 mb-4 font-medium">Guide to Purposeful Transformation</p>
               <div className="bg-gradient-to-r from-teal-600 to-lime-500 text-white px-4 py-2 rounded-full text-sm font-semibold inline-block shadow-lg shadow-secondary-green">
-                10+ Years Guiding Transformations
+                Nearly 20 Years Empowering Men & Families
               </div>
             </div>
           </div>
@@ -324,11 +354,11 @@ export default function HomePage() {
           <div className="w-12 h-12 bg-gradient-to-r from-green-700 to-emerald-700 rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110 mx-auto mb-6 shadow-lg shadow-primary-green">
             <Leaf className="w-7 h-7 text-white" />
           </div>
-          <span className="text-2xl font-bold text-white font-sans">themauqif</span>
+          <span className="text-2xl font-bold text-white font-sans">The Rooted Clarity</span>
           <p className="text-gray-300 mb-4 font-medium">
             Guiding you towards inner peace, clarity, and a life of profound well-being.
           </p>
-          <p className="text-gray-400 text-sm">© 2024 themauqif. All rights reserved. | Cultivating Serenity</p>
+          <p className="text-gray-400 text-sm">© 2024 The Rooted Clarity. All rights reserved. | Cultivating Serenity</p>
         </div>
       </footer>
     </div>
