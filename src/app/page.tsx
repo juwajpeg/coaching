@@ -144,7 +144,7 @@ export default function HomePage() {
       {/* Brotherhood Quote and Note */}
       <div className="max-w-3xl mx-auto mb-16 px-4 text-center">
         <div className="text-3xl md:text-4xl font-bold text-emerald-300 mb-2 font-serif leading-relaxed">
-          "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا بَيْنَ أَخَوَيْكُمْ"
+          &quot;إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا بَيْنَ أَخَوَيْكُمْ&quot;
         </div>
         <div className="text-emerald-400 text-lg mb-4">(سورة الحجرات 49:10)</div>
         <blockquote className="italic text-xl md:text-2xl text-emerald-200 mb-4 font-serif">“Indeed, the believers are brothers, so make peace between your brothers.”<br /><span className="text-base text-emerald-400">(Qurʾān 49:10)</span></blockquote>
